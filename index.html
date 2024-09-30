@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione Persone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestione Persone</h1>
+    <form id="personForm">
+        Nome:<input type="text" id="nome" name="nome"><br>
+        
+        Cognome:<input type="text" id="cognome" name="cognome"><br>
+        Email:<input type="email" id="email" name="email"><br>
+        Data di Nascita:<input type="date" id="dataNascita" name="dataNascita"><br>
+        Numero di Telefono:<input type="tel" id="telefono" name="telefono"><br>
+        Paese:<input type="text" id="paese" name="paese"><br>
+        Provincia:<input type="text" id="provincia" name="provincia"><br>
+        
+        <button type="button" id="addPerson">Aggiungi Persona</button>
+    </form>
+
+    <table id="personTable">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Email</th>
+                <th>Data di Nascita</th>
+                <th>Numero di Telefono</th>
+                <th>Paese</th>
+                <th>Provincia</th>
+                <th>Azioni</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
